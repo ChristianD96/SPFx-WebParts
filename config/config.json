@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fun-friends-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/funFriends/FunFriendsWebPart.js",
+          "manifest": "./src/webparts/funFriends/FunFriendsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FunFriendsWebPartStrings": "lib/webparts/funFriends/loc/{locale}.js"
+  }
+}
